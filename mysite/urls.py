@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls), #for every url starting with admin/, find corresponding view
-path("", include('blog.urls')),
+path("blog/", include('blog.urls')),
 ]
